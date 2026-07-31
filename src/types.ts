@@ -12,6 +12,6 @@ export interface step {
 export interface session{
     taskName:string,
     agentUsed: string, //claude-code or someother for ex
-    date:string
+    date:string,
     steps: step[];
 }
