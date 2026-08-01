@@ -55,7 +55,7 @@ export class Recorder {
         })
     }
 
-    async navaigation(url:string):Promise<void>{
+    async navigation(url:string):Promise<void>{
         this.stepCounter++;
         const before = await this.screenshot("before")
         await this.page.goto(url);
